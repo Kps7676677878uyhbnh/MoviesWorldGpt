@@ -14,3 +14,26 @@ The React Compiler is not enabled on this template because of its impact on dev 
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+
+
+
+
+Project Console: https://console.firebase.google.com/project/netflixgpt-177da/overview
+Hosting URL: https://netflixgpt-177da.web.app
+
+karansample
+Kps8077@gmail.com
+Kps@80770421
+
+
+
+
+usha
+Usha764@gmail.com
+Usha@686868
+
+
+jay4321@gmail.com
+Kps@721011

@@ -5,10 +5,12 @@ const checkValidData = (email, password) => {
 
   // ✅ Password regex pattern
   // At least one lowercase, one uppercase, one digit, one special char, and minimum 8 chars
-  const isPasswordValid =
-    /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/.test(
-      password
-    );
+  // const isPasswordValid =
+  //   /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/.test(
+  //     password
+  //   );
+  const isPasswordValid = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/.test(password);
+
 
   // 🧠 Logical checks
   if (!isEmailValid) return "Email ID is not valid.";

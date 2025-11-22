@@ -1,14 +1,18 @@
 import { useState } from 'react'
 import Body from './components/Body'
+import {Provider} from 'react-redux'
+import AppStore from "./utils/AppStore"
 
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
-    <>
+    <Provider store = {AppStore}>
+  
    <Body/>
-    </>
+    
+    </Provider>
   )
 }
 
